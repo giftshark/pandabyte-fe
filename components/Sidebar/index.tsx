@@ -64,13 +64,14 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
     >
       {/* <!-- SIDEBAR HEADER --> */}
       <div className="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-        <Link href="/">
+        <Link href="/" className="flex items-center gap-3 font-black text-white text-2xl">
           <Image
-            width={176}
-            height={32}
-            src={"/images/logo/logo.svg"}
-            alt="Logo"
+              width={50}
+              height={15}
+              src={"/images/logo/pandabyte-logo.webp"}
+              alt="Logo"
           />
+          <p>PandaByte</p>
         </Link>
 
         <button
